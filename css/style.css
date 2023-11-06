@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 16px;
+}
+.planSliderCard {
+    padding: 20px 20px;
+    border-radius: 10px;
+    padding-top: 43px;
+}
+.plan_details {
+    padding-top: 20px;
+}
+.plan_following{
+    height: 143px;
+}
+.plan_following ul {
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0;
+}
+.plan_following ul li {
+    padding: 5px 0px;
+}
+.plan_btn_wrapper {
+    padding: 15px 0px;
+    text-align: center;
+}
+.plan_btn_wrapper button {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.details {
+    border-bottom: 1px solid black;
+}
+.pagination .swiper-button-disabled{
+    color: gray !important;
+    background-color: white !important;
+}
+.plan-following {
+    padding-top: 24px;
+}
+.hidden-info{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .left-part{
+        display: none;
+    }
+    .plan_following {
+        height: 177px;
+    }
+    .plan_following ul {
+        padding: 0;
+        padding-bottom:10px;
+    }
+    .plan_btn_wrapper button {
+        width: 70%;
+    }
+    .hidden-info{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .plan_following {
+        height: 177px;
+    }
+    .planSliderCard.swiper-slide.swiper-slide-active {
+        width: 85% !important;
+    }
+}
